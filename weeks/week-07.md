@@ -1,40 +1,40 @@
-# 7주차 — 아키텍처와 컨텍스트 설계
-### Week 7 — Architecture and Context Design
+[week-07.md](https://github.com/user-attachments/files/34017116/week-07.md)
+# Week 07 팀 활동지 / Team Activity
 
-[← 목록으로 / Back to index](../README.md)
+| 팀명 / Team | 작성일 / Date | 참여자 / Members |
+|---|---|---|
+| | | |
 
-## 학습 목표 / Objectives
+## 1. 아키텍처 다이어그램 / Architecture Diagram
 
-- 서비스 구조를 계층으로 설명할 수 있다
-- 요구사항을 실행 가능한 이슈로 분해할 수 있다
+손그림 사진을 올리고 링크하십시오 / Upload a photo and link it.
 
-## 핵심 개념 / Key concepts
+![architecture](img/week-07-arch.png)
 
-- 3계층 분리 — 표현 / 로직 / 데이터
-- 결합도와 응집도
-- 기술 스택 선택 기준
-- 좋은 이슈의 조건과 마일스톤 운영
+| 계층 / Layer | 모듈·파일 / Modules | 의존하지 않는 것 / Does not depend on |
+|---|---|---|
+| 표현 / Presentation | | |
+| 로직 / Logic | | |
+| 데이터 / Data | | |
 
-## 이번 주 할 일 / What to do
+## 2. 이슈 / Issues
 
-- [ ] 아키텍처 다이어그램 1장 작성
-- [ ] 이슈 분해 및 담당자·마일스톤 지정
+> 이슈 = **앞으로 할 일** / An issue is work to be done.
+> 개발할 때 커밋에 이슈 번호를 붙이고(`#3 알레르기 필터 추가`), 완료 조건을 만족하면 이슈를 닫습니다.
+> Add the issue number to commits, and close the issue when its criteria are met.
 
-## 준비물 / Prepare before class
+| # | 제목 / Title | 라벨 / Label | 담당 / Assignee | 완료 조건 / Acceptance Criteria |
+|---|---|---|---|---|
+| 예시 #3 | 알레르기 필터 | backend | 홍길동 | '땅콩'을 선택하면 땅콩이 들어간 메뉴가 추천 결과에서 빠진다 |
+| | | | | |
+| | | | | |
+| | | | | |
 
-- **다음 주 중간고사** — 1~7주 이론 전체
+## 3. 마일스톤 / Milestones
 
----
+| 마일스톤 / Milestone | 마감 / Due | 포함 이슈 / Issues |
+|---|---|---|
+| MVP 완료 | 11주차 | |
+| 실행 패키지 | 13주차 | |
 
-## 활동지 / Worksheet
-
-- 원본 보기 / View original: [`docs/week-07.md`](https://github.com/alice-hyuerica/aix-team-template/blob/main/docs/week-07.md)
-- 작성 위치 / Where to write: **여러분 팀 저장소의** `docs/week-07.md`
-- 제출 / Submit: 수업 종료 시 커밋 → 커밋 URL을 LMS에 제출
-
-## 윤리 노트 / Ethics Note
-
-이번 주 윤리 노트는 **LMS 7주차 과제란에 개인으로 제출**합니다. (150~300자)
-저장소에 올리지 않습니다.
-
-*Submit this week's ethics note individually on the LMS (150–300 characters). Not in the repository.*
+> AI를 사용했다면 `PROMPTS.md`에 기록 / Log any AI use in `PROMPTS.md`
